@@ -81,10 +81,14 @@ export default function Page() {
       </div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
-       <div className="qband rv"><div className="bg" data-speed=".12" style={{backgroundImage:"url(https://belegends.club/assets/block-6-3.jpg)"}}></div>
-       <div><span className="kicker" style={{color:"var(--gold-hi)"}}>Started in Dubai</span>
-       <blockquote style={{marginTop:"14px"}}>“You are not here by accident. You found this because something inside you was already looking for it.”</blockquote>
-       <cite>Yanis Chkhatval · Founder of Legends</cite></div></div>
+       <div className="qband rv">
+        <div className="qb-photo"><img data-speed=".08" src="https://belegends.club/assets/block-6-3.jpg" alt="Legends dinner in Dubai" /></div>
+        <div className="qb-text">
+         <span className="kicker">Started in Dubai</span>
+         <blockquote>“You are not here by accident. You found this because something inside you was already looking for it.”</blockquote>
+         <div className="qb-sign"><img src="/brand/yanis.webp" alt="" /><div><b>Yanis Chkhatval</b><small>Founder of Legends</small></div></div>
+        </div>
+       </div>
       </div></section>
 
       <section className="sec" style={{paddingTop:"0"}}><div className="wrap">
